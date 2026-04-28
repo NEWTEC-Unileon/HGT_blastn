@@ -12,7 +12,7 @@ puts name
 	line.chomp!
 #>contig00001 len=345504 cov=28.1 corr=0 origname=NODE_1_length_345504_cov_28.082128_pilon sw=shovill-spades/1.1.0 date=20210115
 	if line =~ /^>/
-		out.puts ">#{name}_#{line}"
+		out.puts ">#{name}___#{line}"
 	else
 		out.puts line
 	end
