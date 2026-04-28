@@ -1,0 +1,1 @@
+This is a pipeline to detect Horizontal Gene Trasnsfer (HGT) events on contigs, genomes or metagenome assembled genomes (MAGs), using identity > 99.9% and alignment length > 500bp from blastn outputs, according to [Goussin et al., 2021](https://doi.org/10.1016/j.cell.2021.02.052 )
