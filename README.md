@@ -2,7 +2,9 @@ This is a pipeline to detect Horizontal Gene Trasnsfer (HGT) events on contigs, 
 
 The first step is to merge all contigs/genomes in a unique file but adding information about sample/genome of origin, by runing:
 
-```ruby 01.change_genomes_headers.rb GENOMES_FOLDER```
+```
+ruby 01.change_genomes_headers.rb GENOMES_FOLDER
+```
 
 It will create a file named *all_genomes.fna* that we need to format for blastn database and perform the blastn to it self by:
 
