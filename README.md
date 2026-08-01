@@ -12,3 +12,17 @@ It will create a file named *all_genomes.fna* that we need to format for blastn 
 makeblastdb -in all_genomes.fna -dbtype nucl -out all_genomes
 blastn -query all_genomes.fna -db all_genomes -out blastn_allvsall.txt -perc_identity 99.9 -outfmt 6 -max_target_seqs 500 -num_threads NUM_THREADS
 ```
+
+## LICENSE<a name="idlicense"></a>
+
+HGT_blastn pipeline is under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format for any purpose other than commercial purposes.
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial — You may not use the material for commercial purposes.
+- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
